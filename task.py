@@ -17,6 +17,7 @@ class Tree:
     def print_preorder(self):
         if self == None:
             return
+        print(self.dat)
         if self.left is not None:
             self.left.print_preorder()
         if self.right is not None:
