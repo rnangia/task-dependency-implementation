@@ -1,6 +1,5 @@
 # task-dependency-implementation
 
-About:
 A Binary tree whose nodes are tasks. Each task takes an arbitrary amount of time. This script parallelizes the execution of tasks- which must be run in the dependency order ( child first , parent later) using threads.
 
 I use Python v 3.5.1
